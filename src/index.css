@@ -1,0 +1,62 @@
+*{
+     margin:0px;
+     padding:0px;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+     color:#ffffff!important;
+}
+
+.dropdown-toggle::after{
+     float:right;
+     margin:10px 0px;
+}
+
+footer{
+     position: absolute;
+     bottom: 0px;
+}
+
+/* Canvas Tools Bar */
+.design_inner .item-group{
+     /* overflow:auto; */
+     display: flex;
+     /* overflow-x: scroll; */
+}
+
+/* width */
+/* .design_inner .row::-webkit-scrollbar {
+     height: 5px;
+     background-color: #313131;
+} */
+   
+/* Track */
+/* .design_inner .row::-webkit-scrollbar-track {
+     background: #f1f1f1;
+} */
+
+/* Handle */
+/* .design_inner .row::-webkit-scrollbar-thumb {
+     background: #888;
+} */
+
+/* Handle on hover */
+/* .design_inner .row::-webkit-scrollbar-thumb:hover {
+     background: #555;
+} */
+
+
+/* BUTTON */
+.design_item button:focus{
+     outline: none;
+     outline-offset: 0px;
+     box-shadow: none;
+}
+.design_item button:hover{
+     background-color: rgb(11, 165, 204);
+     color:#fff;
+}
+.design_item button:active{
+     background-color: rgb(11, 165, 204);
+     color:#fff;
+}
