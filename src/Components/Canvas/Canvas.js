@@ -75,6 +75,14 @@ function Canvas(props) {
     setAligment(align);
   };
 
+  const handleObjectitalic = (italic) => {
+    setFontItalic(italic);
+  }
+
+  const handleObjectUnderline = (underline) =>  {
+    setFontUnderline(underline);
+  }
+ 
   const handleObjectColor = (color) => {
     setObjColor(color.target.value);
   };
@@ -205,6 +213,8 @@ function Canvas(props) {
               strokeWidth={handleStrokeWidth}
               strokeColor={handleStrokeColor}
               onObjClone={handleObjectClone}
+              faItalic = {handleObjectitalic}
+              faUnderline = {handleObjectUnderline}
             />
             <div className="card-body" style={{ height: '600px' }}>
               <canvas

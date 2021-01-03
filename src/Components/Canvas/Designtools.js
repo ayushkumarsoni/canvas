@@ -25,6 +25,8 @@ function Designtools(props) {
     strokeColor,
     strokeWidth,
     onObjClone,
+    faItalic,
+    faUnderline,
   } = props;
   const [moreleft, setMoreLeft] = useState(false);
   const [moreright, setMoreRight] = useState(true);
